@@ -222,6 +222,10 @@ body {
     background-size: cover;
     background-position: center center;
 }
-
-
-
+/* stlyling for faq page */
+#faq_section {
+    background:linear-gradient(rgba(0, 0, 34, 0.55), rgba(0, 0, 34, 0.55)), url('images/or.jpg');
+    height:660px;
+    background-size: cover;
+    background-position: center center;
+}
