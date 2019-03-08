@@ -32,7 +32,7 @@ body {
     background-position: center center;
 }
 .home_header {
-    padding-top:200px;
+    padding-top:170px;
 }
 @media(max-width:768px) {
     #header {
@@ -76,7 +76,10 @@ body {
     border-top-left-radius: 0px !important;
     border-bottom-left-radius: 0px !important;
 }
-
+.service_icon {
+    font-size: 33px;
+    
+}
 /* styling for homepage second header */
 
 .home_secondHead {
@@ -226,6 +229,29 @@ body {
 #faq_section {
     background:linear-gradient(rgba(0, 0, 34, 0.55), rgba(0, 0, 34, 0.55)), url('images/or.jpg');
     height:660px;
+    background-size: cover;
+    background-position: center center;
+}
+
+/* styling for details page */
+#details {
+    background:linear-gradient(rgba(0, 0, 34, 0.55), rgba(0, 0, 34, 0.55)), url('images/search-result.jpg');
+    height:400px;
+    background-size: cover;
+    background-position: center center;
+}
+@media(max-width : 320px) {
+    #details {
+    background:linear-gradient(rgba(0, 0, 34, 0.55), rgba(0, 0, 34, 0.55)), url('images/search-result.jpg');
+    height:350px;
+    background-size: cover;
+    background-position: center center;
+}
+}
+/* styling for delivery page */ 
+#delivery {
+    background: url('images/search-booking.jpg');
+    height:400px;
     background-size: cover;
     background-position: center center;
 }
